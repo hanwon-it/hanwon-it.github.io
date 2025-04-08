@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hanwon&#39;s Portfolio</title>
+    <meta name="description" content="세상에서 가장 뛰어난 AI 개발자" />
+    <meta name="author" content="Hanwon" />
+    <!-- 소셜 미디어 공유용 메타 태그(Open Graph) -->
+    <meta property="og:title" content="한원의 포트폴리오" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="배포후 생성된 URL" />
+    <meta property="og:image" content="배포후 생성된 이미지 URL" />
+    <link rel="shortcut icon" href="./images/hero1.ico" type="images/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/133260cff9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header 시작 -->
+    <header class="header">
+      <div class="header__logo">
+        <img class="header__logo__img" src="./images/hero1.ico" alt="Logo" />
+        <h1 class="header__logo__title"><a href="#home">Hanwon</a></h1>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li><a href="#home" class="header__menu__item active">홈으로</a></li>
+          <li><a href="#about" class="header__menu__item">Hanwon</a></li>
+          <li><a href="#skills" class="header__menu__item">기술</a></li>
+          <li><a href="#work" class="header__menu__item">포트폴리오</a></li>
+          <li><a href="#license" class="header__menu__item">자격증</a></li>
+          <li><a href="#contact" class="header__menu__item">연락처</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Header 끝 -->
+
+    <!-- Main 시작 -->
+    <main>
+      <!-- Home 시작 -->
+      <section id="home">
+        <img
+          class="home__avatar"
+          src="./images/hero1.png"
+          alt="Hanwon's profile"
+        />
+        <h2 class="home__title">
+          안녕하세요. <br /><strong class="home__title--string">
+            한원입니다</strong
+          >
+        </h2>
+        <p class="home__description">
+          우주에서 가장 뛰어난 AI 개발자 한원입니다!!
+        </p>
+        <a class="home__contact" href="#contact">연락처</a>
+      </section>
+      <!-- Home 끝 -->
+
+      <!-- About 시작 -->
+      <section id="about" class="section max-container">
+        <h2 class="title">한원</h2>
+        <p class="description">
+          이 블로그는 필자가 포트폴리오 작성을 위하여 제작한 사이트 및
+          페이지입니다. <br />
+          저에게 연락을 원하는 분은 연락처 탭을 클릭해주시기 바랍니다.
+        </p>
+
+        <ul class="skills">
+          <li class="skill">
+            <i class="fa-brands fa-html5 skill__icon"></i>
+            <p class="skill__title">Front-end</p>
+            <p>HTML, CSS, JavaScript, Node.js, React</p>
+          </li>
+          <li class="skill">
+            <i class="fa-solid fa-mobile skill__icon"></i>
+            <p class="skill__title">Mobile</p>
+            <p>Android, IOS, Kotlin, React-Native</p>
+          </li>
+          <li class="skill">
+            <i class="fa-solid fa-rocket skill__icon"></i>
+            <p class="skill__title">AI</p>
+            <p>Tensorflow, Python, Pytorch, Numpy</p>
+          </li>
+        </ul>
+
+        <ul class="jobs">
+          <li class="job">
+            <img
+              class="job__img"
+              src="./images/danawa_logo.png"
+              alt="Danawo logo"
+            />
+            <div>
+              <p class="job__name">다나와 시스템 엔지니어</p>
+              <p class="job__period">2015 ~ 2017</p>
+            </div>
+          </li>
+          <li class="job">
+            <img class="job__img" src="./images/notion.png" alt="notion logo" />
+            <div>
+              <p class="job__name">노션 시스템 엔지니어</p>
+              <p class="job__period">2017 ~ 2019</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- about 끝 -->
+
+      <!-- skills 시작-->
+      <section id="skills" class="section">
+        <div class="max-container">
+          <h2 class="title">기술</h2>
+          <p class="description">언어 및 도구</p>
+          <p>
+            필자가 지금까지 사용해온 도구들과 사용 가능한 언어들을 나열해
+            놓았습니다.
+          </p>
+          <div class="tools">
+            <section class="tools__coding">
+              <h3 class="tools__title">언어</h3>
+              <ul>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>HTML</span><span>100%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 100%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>CSS</span><span>90%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 90%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>JavaScript</span><span>80%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 80%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>Java</span><span>70%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 70%"></div>
+                  </div>
+                </li>
+                <li class="bar">
+                  <div class="bar__metadata">
+                    <span>Python</span><span>90%</span>
+                  </div>
+                  <div class="bar__bg">
+                    <div class="bar__value" style="width: 90%"></div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section class="tools__tools">
+              <h3 class="tools__title">도구</h3>
+              <ul>
+                <li>Visual Studio Code</li>
+                <li>IntelliJ</li>
+                <li>Colab</li>
+                <li>Jupyter</li>
+                <li>Xcode</li>
+              </ul>
+            </section>
+
+            <section class="tools__etc">
+              <h3 class="tools__title">기타</h3>
+              <ul>
+                <li>Git</li>
+                <li>Slack</li>
+                <li>Math</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+      <!-- skills 끝 -->
+
+      <!-- 수상 경력 시작-->
+      <section id="susang" class="section max-container">
+        <h2 class="title">수상 경력</h2>
+        <ul class="sangs">
+          <li class="sangss">
+            <img
+              class="sang__img"
+              src="./images/danawa_logo.png"
+              alt="sangimg"
+            />
+            <div>
+              <p class="sang__name">@@@ 대회 수상</p>
+              <p class="sang__award">2015/04/08</p>
+            </div>
+          </li>
+          <li class="sangss">
+            <img class="sang__img" src="./images/notion.png" alt="sangimg" />
+            <div>
+              <p class="sang__name">### 대회 수상</p>
+              <p class="sang__award">2016/04/10</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- work 시작-->
+      <section id="work">
+        <h2>포트폴리오</h2>
+        <p>Projects</p>
+        <ul>
+          <li>
+            <button>ALL <span>10</span></button>
+          </li>
+          <li>
+            <button>Front-end <span>3</span></button>
+          </li>
+          <li>
+            <button>Mobile <span>3</span></button>
+          </li>
+          <li>
+            <button>AI <span>4</span></button>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <!-- _blank는 클릭 시 새 탭이 열리는 기능 -->
+            <a href="#" target="_blank">
+              <img src="./images/canva.png" alt="project 이미지" />
+              <div>
+                <h3>Project #1</h3>
+                <p>칸바</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <!-- _blank는 클릭 시 새 탭이 열리는 기능 -->
+            <a href="#" target="_blank">
+              <img src="./images/canva.png" alt="project 이미지" />
+              <div>
+                <h3>Project #2</h3>
+                <p>칸바</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <!-- _blank는 클릭 시 새 탭이 열리는 기능 -->
+            <a href="#" target="_blank">
+              <img src="./images/canva.png" alt="project 이미지" />
+              <div>
+                <h3>Project #3</h3>
+                <p>칸바</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <!-- _blank는 클릭 시 새 탭이 열리는 기능 -->
+            <a href="#" target="_blank">
+              <img src="./images/canva.png" alt="project 이미지" />
+              <div>
+                <h3>Project #4</h3>
+                <p>칸바</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <!-- _blank는 클릭 시 새 탭이 열리는 기능 -->
+            <a href="#" target="_blank">
+              <img src="./images/canva.png" alt="project 이미지" />
+              <div>
+                <h3>Project #5</h3>
+                <p>칸바</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <!-- _blank는 클릭 시 새 탭이 열리는 기능 -->
+            <a href="#" target="_blank">
+              <img src="./images/canva.png" alt="project 이미지" />
+              <div>
+                <h3>Project #6</h3>
+                <p>칸바</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <!-- _blank는 클릭 시 새 탭이 열리는 기능 -->
+            <a href="#" target="_blank">
+              <img src="./images/canva.png" alt="project 이미지" />
+              <div>
+                <h3>Project #7</h3>
+                <p>칸바</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <!-- _blank는 클릭 시 새 탭이 열리는 기능 -->
+            <a href="#" target="_blank">
+              <img src="./images/canva.png" alt="project 이미지" />
+              <div>
+                <h3>Project #8</h3>
+                <p>칸바</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <!-- work 끝-->
+
+      <!-- license 시작-->
+      <section id="license">
+        <h2>자격증</h2>
+        <p>국가 기술 자격증</p>
+        <ul>
+          <li>
+            <img src="./images/spring.png" alt="자격증1" />
+            <div>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officiis dolorem magnam pariatur vitae, quaerat maxime, ab,
+                harum cumque mollitia enim eveniet blanditiis nemo impedit
+                similique fugit ipsa. Minima, nulla molestias.
+              </p>
+              <p><a href="#">산업공단</a></p>
+            </div>
+          </li>
+
+          <li>
+            <img src="./images/spring.png" alt="자격증2" />
+            <div>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officiis dolorem magnam pariatur vitae, quaerat maxime, ab,
+                harum cumque mollitia enim eveniet blanditiis nemo impedit
+                similique fugit ipsa. Minima, nulla molestias.
+              </p>
+              <p><a href="#">한국데이터산업진흥원</a></p>
+            </div>
+          </li>
+
+          <li>
+            <img src="./images/spring.png" alt="자격증3" />
+            <div>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officiis dolorem magnam pariatur vitae, quaerat maxime, ab,
+                harum cumque mollitia enim eveniet blanditiis nemo impedit
+                similique fugit ipsa. Minima, nulla molestias.
+              </p>
+              <p><a href="#">한국데이터산업진흥원</a></p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Arrow Up 시작 -->
+      <aside>
+        <a href="#home" title="위로">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </aside>
+      <!-- Arrow Up 끝-->
+    </main>
+    <!-- Main 끝 -->
+
+    <!-- Footer 시작-->
+    <footer id="contact">
+      <h2>연락주세요!</h2>
+      <p>hanwon이메일</p>
+      <ul>
+        <li>
+          <a
+            href="https://github.com/hanwon-it/portfolio_hanwon"
+            target="_blank"
+            title="깃허브"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a
+            href="https://github.com/hanwon-it/portfolio_hanwon"
+            target="_blank"
+            title="깃허브"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+      </ul>
+      <p>&copy; Hanwon - All rights reserved</p>
+    </footer>
+  </body>
+</html>
