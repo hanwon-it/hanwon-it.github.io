@@ -159,29 +159,29 @@ button:focus {
 }
 
 /* @media (min-width: 768px) and (max-width: 1023px) {
-  .header {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-     width: auto; 
-    padding-left: 50px;
-  }
-  body {
-    padding-left: 50px;
-  }
-  .header__logo {
-    flex-direction: column;
-    gap: 4px;
-  }
-
-  .header__menu {
-    gap: 8px;
-  }
-
-  .header__menu__item {
-    font-size: 1rem;
-  }
-} */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+       width: auto; 
+      padding-left: 50px;
+    }
+    body {
+      padding-left: 50px;
+    }
+    .header__logo {
+      flex-direction: column;
+      gap: 4px;
+    }
+  
+    .header__menu {
+      gap: 8px;
+    }
+  
+    .header__menu__item {
+      font-size: 1rem;
+    }
+  } */
 
 #skill1,
 #skill2,
@@ -286,7 +286,7 @@ button:focus {
 }
 
 /* 수정이 필요한 것은 --@@로 */
-.home__title--strong {
+.home__title--string {
   color: var(--color-accent);
 }
 
@@ -312,14 +312,14 @@ button:focus {
 }
 
 /* about */
-.skills {
+.majors {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
   margin: 2.5rem 0;
 }
 
-.skill {
+.major {
   background-color: var(--color-primary-variant);
   padding: 2rem 1rem;
   color: var(--color-text);
@@ -329,18 +329,18 @@ button:focus {
   animation: Twinkle 3s infinite;
 }
 
-.skill__icon {
+.major__icon {
   font-size: 4rem;
   margin: 1rem 0;
   color: var(--color-accent);
   transition: all 300ms ease;
 }
 
-.skill:hover .skill__icon {
+.major:hover .major__icon {
   transform: rotate(-15deg) scale(1.2);
 }
 
-.skill__title {
+.major__title {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
@@ -405,7 +405,7 @@ button:focus {
   color: var(--color-text);
 }
 
-.tools {
+.skills {
   display: grid;
   grid-template-columns: 6fr 4fr;
   margin: 2rem 3rem;
@@ -413,13 +413,13 @@ button:focus {
   overflow: hidden;
 }
 
-.tools__title {
+.skills__title {
   color: var(--color-white);
   margin: 1rem 0;
   font-size: 1.2rem;
 }
 
-.tools__coding {
+.skills__coding {
   /* 두 개의 행을 차지하도록 설정*/
   grid-row: span 2;
   padding: 1rem;
@@ -449,11 +449,11 @@ button:focus {
   background-color: var(--color-accent);
 }
 
-.tools__tools {
+.skills__tools {
   padding: 1rem;
 }
 
-.tools_etc {
+.skills_etc {
   padding: 1rem;
   background-color: var(--color-primary);
   filter: brightness(150%);
@@ -552,10 +552,10 @@ button:focus {
 }
 
 /*
- after - 요소 뒤에 가상의 요소를 하나 만들어주는 선택자 
- content: "" - 아무 내용도 없는 빈 가상 요소를 만듦
- display: block; - 가상 요소를 블록 요소처럼 만들어서 크기를 줄 수 있게 함
- */
+   after - 요소 뒤에 가상의 요소를 하나 만들어주는 선택자 
+   content: "" - 아무 내용도 없는 빈 가상 요소를 만듦
+   display: block; - 가상 요소를 블록 요소처럼 만들어서 크기를 줄 수 있게 함
+   */
 .project__title:after {
   content: "";
   display: block;

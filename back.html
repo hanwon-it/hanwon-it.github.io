@@ -20,8 +20,7 @@
     />
     <link rel="shortcut icon" href="./images/hero1.ico" type="images/x-icon" />
     <link rel="stylesheet" href="./css/style.css" />
-    <script defer src="./js/main.js"></script>
-    <script defer src="./js/project.js"></script>
+    <link rel="stylesheet" href="./js/main.js" />
     <script
       src="https://kit.fontawesome.com/133260cff9.js"
       crossorigin="anonymous"
@@ -62,7 +61,7 @@
             alt="Hanwon's profile"
           />
           <h2 class="home__title">
-            안녕하세요. <br /><strong class="home__title--strong">
+            안녕하세요. <br /><strong class="home__title--string">
               한원입니다</strong
             >
           </h2>
@@ -83,20 +82,20 @@
           저에게 연락을 원하는 분은 연락처 탭을 클릭해주시기 바랍니다.
         </p>
 
-        <ul class="skills" id="sk">
-          <li class="skill" id="skill1">
-            <i class="fa-brands fa-html5 skill__icon"></i>
-            <p class="skill__title">Front-end</p>
+        <ul class="majors" id="sk">
+          <li class="major" id="skill1">
+            <i class="fa-brands fa-html5 major__icon"></i>
+            <p class="major__title">Front-end</p>
             <p>HTML, CSS, JavaScript, Node.js, React</p>
           </li>
-          <li class="skill" id="skill2">
-            <i class="fa-solid fa-mobile skill__icon"></i>
-            <p class="skill__title">Mobile</p>
+          <li class="major" id="skill2">
+            <i class="fa-solid fa-mobile major__icon"></i>
+            <p class="major__title">Mobile</p>
             <p>Android, IOS, Kotlin, React-Native</p>
           </li>
-          <li class="skill" id="skill3">
-            <i class="fa-solid fa-rocket skill__icon"></i>
-            <p class="skill__title">AI</p>
+          <li class="major" id="skill3">
+            <i class="fa-solid fa-rocket major__icon"></i>
+            <p class="major__title">AI</p>
             <p>Tensorflow, Python, Pytorch, Numpy</p>
           </li>
         </ul>
@@ -133,9 +132,9 @@
             필자가 지금까지 사용해온 도구들과 사용 가능한 언어들을 나열해
             놓았습니다.
           </p>
-          <div class="tools">
-            <section class="tools__coding" id="to1">
-              <h3 class="tools__title">언어</h3>
+          <div class="skills">
+            <section class="skills__coding" id="to1">
+              <h3 class="skills__title">언어</h3>
               <ul>
                 <li class="bar">
                   <div class="bar__metadata">
@@ -180,8 +179,8 @@
               </ul>
             </section>
 
-            <section class="tools__tools" id="to2">
-              <h3 class="tools__title">도구</h3>
+            <section class="skills__tools" id="to2">
+              <h3 class="skills__title">도구</h3>
               <ul>
                 <li>Visual Studio Code</li>
                 <li>IntelliJ</li>
@@ -191,8 +190,8 @@
               </ul>
             </section>
 
-            <section class="tools__etc" id="to3">
-              <h3 class="tools__title">기타</h3>
+            <section class="skills__etc" id="to3">
+              <h3 class="skills__title">기타</h3>
               <ul>
                 <li>Git</li>
                 <li>Slack</li>
@@ -248,22 +247,22 @@
           <p class="description">Projects</p>
           <ul class="categories">
             <li id="b1">
-              <button class="category category--selected" data-category="all">
+              <button class="category category--selected">
                 ALL <span class="category__count">10</span>
               </button>
             </li>
             <li id="b2">
-              <button class="category" data-category="front-end">
+              <button class="category">
                 Front-end <span class="category__count">3</span>
               </button>
             </li>
             <li id="b3">
-              <button class="category" data-category="mobile">
+              <button class="category">
                 Mobile <span class="category__count">3</span>
               </button>
             </li>
             <li>
-              <button class="category" data-category="ai">
+              <button class="category">
                 AI <span class="category__count">4</span>
               </button>
             </li>
