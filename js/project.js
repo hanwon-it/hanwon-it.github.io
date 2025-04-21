@@ -1,6 +1,6 @@
 const categories = document.querySelector(".categories");
 const projectsConstainer = document.querySelector(".projects");
-const projects = document.querySelector(".project");
+const projects = document.querySelectorAll(".project");
 
 categories.addEventListener("click", (e) => {
   const filter = e.target.dataset.category;
@@ -18,4 +18,18 @@ function activeSelection(target) {
   target.classList.add("category--selected");
 }
 
-function filterProjects(filter) {}
+function filterProjects(filter) {
+  projects.forEach((projects) => {
+    console.log(filter);
+    console.log();
+    if (filter == "all" || filter == project.dataset.type) {
+      projects.style.display = "block";
+    } else {
+      projects.style.display = "none";
+    }
+  });
+  projectsConstainer.classList.add("anim-out");
+  setTimeout(() => {
+    projectsConstainer.classList.remove("anim-out");
+  }, 500);
+}
