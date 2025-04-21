@@ -10,6 +10,7 @@ categories.addEventListener("click", (e) => {
     return;
   }
   activeSelection(e.target);
+  filterProjects(filter);
 });
 
 function activeSelection(target) {
@@ -19,13 +20,11 @@ function activeSelection(target) {
 }
 
 function filterProjects(filter) {
-  projects.forEach((projects) => {
-    console.log(filter);
-    console.log();
+  projects.forEach((project) => {
     if (filter == "all" || filter == project.dataset.type) {
-      projects.style.display = "block";
+      project.style.display = "block";
     } else {
-      projects.style.display = "none";
+      project.style.display = "none";
     }
   });
   projectsConstainer.classList.add("anim-out");
