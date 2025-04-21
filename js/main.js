@@ -19,7 +19,7 @@ document.addEventListener("scroll", () => {
   home.style.opacity = 1 - window.scrollY / homeHeight;
 });
 
-const arrowUp = document.querySelector(".arror-up");
+const arrowUp = document.querySelector(".arrow-up");
 document.addEventListener("scroll", () => {
   if (window.scrollY > homeHeight / 2) {
     arrowUp.style.opacity = 1;
@@ -30,7 +30,7 @@ document.addEventListener("scroll", () => {
 
 arrowUp.addEventListener("click", (e) => {
   e.preventDefault(); // a 태그의 기본 동작을 막음
-  window.scrollTo({ top: 0, behavior: smooth });
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
 const navbarMenu = document.querySelector(".header__menu");

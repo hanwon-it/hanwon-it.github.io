@@ -1,4 +1,4 @@
-const categories = document.querySelector("categories");
+const categories = document.querySelector(".categories");
 const projectsConstainer = document.querySelector(".projects");
 const projects = document.querySelector(".project");
 
@@ -17,3 +17,5 @@ function activeSelection(target) {
   active.classList.remove("category--selected");
   target.classList.add("category--selected");
 }
+
+function filterProjects(filter) {}
